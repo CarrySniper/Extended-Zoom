@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5690D921AA00A4400673EA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5690D911AA00A4400673EA0 /* ViewController.m */; };
+		C5690D981AA0488300673EA0 /* car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5690D971AA0488300673EA0 /* car@2x.png */; };
 		C5BC5BBB1AA009CF0068FDCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BC5BBA1AA009CF0068FDCD /* Foundation.framework */; };
 		C5BC5BBD1AA009CF0068FDCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BC5BBC1AA009CF0068FDCD /* CoreGraphics.framework */; };
 		C5BC5BBF1AA009CF0068FDCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BC5BBE1AA009CF0068FDCD /* UIKit.framework */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5690D901AA00A4400673EA0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5690D911AA00A4400673EA0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5690D971AA0488300673EA0 /* car@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@2x.png"; sourceTree = "<group>"; };
 		C5BC5BB71AA009CF0068FDCD /* 实现拖动列表时放大列表顶部的图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "实现拖动列表时放大列表顶部的图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5BC5BBA1AA009CF0068FDCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C5BC5BBC1AA009CF0068FDCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +82,9 @@
 		C5BC5BAE1AA009CF0068FDCD = {
 			isa = PBXGroup;
 			children = (
+				C5690D971AA0488300673EA0 /* car@2x.png */,
+				C5690D901AA00A4400673EA0 /* ViewController.h */,
+				C5690D911AA00A4400673EA0 /* ViewController.m */,
 				C5BC5BC01AA009CF0068FDCD /* 实现拖动列表时放大列表顶部的图片 */,
 				C5BC5BD91AA009CF0068FDCD /* 实现拖动列表时放大列表顶部的图片Tests */,
 				C5BC5BB91AA009CF0068FDCD /* Frameworks */,
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5BC5BC51AA009CF0068FDCD /* InfoPlist.strings in Resources */,
+				C5690D981AA0488300673EA0 /* car@2x.png in Resources */,
 				C5BC5BCD1AA009CF0068FDCD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5690D921AA00A4400673EA0 /* ViewController.m in Sources */,
 				C5BC5BCB1AA009CF0068FDCD /* AppDelegate.m in Sources */,
 				C5BC5BC71AA009CF0068FDCD /* main.m in Sources */,
 			);
@@ -437,6 +447,7 @@
 				C5BC5BE51AA009CF0068FDCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5BC5BE61AA009CF0068FDCD /* Build configuration list for PBXNativeTarget "实现拖动列表时放大列表顶部的图片Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +456,7 @@
 				C5BC5BE81AA009CF0068FDCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
